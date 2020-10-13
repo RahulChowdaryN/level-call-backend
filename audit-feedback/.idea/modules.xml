@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/TESTS/.idea/TESTS.iml" filepath="$USER_HOME$/PycharmProjects/TESTS/.idea/TESTS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/audit-feedback.iml" filepath="$PROJECT_DIR$/.idea/audit-feedback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sessions-app/.idea/level-app.iml" filepath="$PROJECT_DIR$/../sessions-app/.idea/level-app.iml" />
+    </modules>
+  </component>
+</project>

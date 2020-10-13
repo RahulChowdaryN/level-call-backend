@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "app_name": "sessions-app",
+  "stages": {
+    "test": {
+      "api_gateway_stage": "test",
+      "manage_iam_role": false,
+      "iam_role_arn": "arn:aws:iam::886064876783:role/test-jwt",
+      "environment_variables": {
+        "SESSION_TABLE_NAME": "test-session",
+        "USERS_TABLE_NAME": "test-user",
+        "USER_ROLES_TABLE_NAME": "test-user-roles",
+        "SESSION_ROLES_TABLE_NAME": "test-session-status",
+        "OPENVIDU_USERNAME": "OPENVIDUAPP",
+        "OPENVIDU_PASSWORD": "Level@123",
+        "CURRENT_REGION": "us-east-2",
+        "OPENVIDU_URL": "https://video.mylevelapp.com/api/",
+        "ROCKETCHAT_URL": "https://rocketchat.mylevelapp.com",
+        "ROCKETCHAT_X_Auth_Token": "aovXdUpWM-7bLVeFw0yQHow50O29scOqIMTlive3ljO",
+        "ROCKETCHAT_X_User_Id": "fBiE4qkjgsx9c4fo5"
+      },
+      "autogen_policy": false
+    }
+  }
+}
